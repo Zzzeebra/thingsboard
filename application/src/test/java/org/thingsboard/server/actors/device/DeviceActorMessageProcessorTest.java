@@ -32,7 +32,7 @@ import static org.mockito.Mockito.mock;
 
 public class DeviceActorMessageProcessorTest {
 
-    public static final long MAX_CONCURRENT_SESSIONS_PER_DEVICE = 10L;
+    public static final int MAX_CONCURRENT_SESSIONS_PER_DEVICE = 10;
     ActorSystemContext systemContext;
     DeviceService deviceService;
     TenantId tenantId = TenantId.SYS_TENANT_ID;
